@@ -2,4 +2,6 @@ RewriteEngine On
 RewriteBase /
 #added to prevent rewrite loop and to load files in node_modules folder
 RewriteCond %{REQUEST_URI} !^/assets/.*$
+RewriteCond %{REQUEST_URI} !^/public/.*$
+
 RewriteRule ^(.*)$ index.php [QSA,L]
