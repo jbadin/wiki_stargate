@@ -1,9 +1,12 @@
 <?php
+require_once 'ressources/errors.php';
 
 class BaseController
 {
+    public array $errors = [];
+    public string $formSuccess = '';
 
-    protected function display($view)
+    public function display($view): void
     {
         require_once 'views/parts/header.php';
         require_once 'views/' . $view . '.php';

@@ -32,8 +32,8 @@
                             Séries
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/create-series">Créer</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="/creer-serie">Créer</a></li>
+                            <li><a class="dropdown-item" href="/liste-series">Liste</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
